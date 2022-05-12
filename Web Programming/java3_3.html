@@ -1,0 +1,16 @@
+<html>
+   <p>Price <input type=text id=price onkeyup="totp();">
+   <p>Quantity <input type=text id=qnt onkeyup="totp();">
+   <p>Total Price <input type=text id=totp>
+   <p> <input type=button value=Calculate >
+   
+   <script>
+   function totp(){
+     var x=document.getElementById("price").value;
+	 var y=document.getElementById("qnt").value;
+	 var z=x*y;
+	 document.getElementById("totp").value=z;
+   }	 
+	 
+   </script>     
+</html>

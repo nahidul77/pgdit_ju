@@ -1,0 +1,36 @@
+<html>
+   <form action="html2_1.html" method=get>
+        <p><input type=text size=20 name=name>
+		<p><input type=submit name=save value="Save It">
+		
+   </form>
+   
+   <script>
+        var x,y;
+		
+		x=10;
+		y=40;
+		var z=x+y;
+		document.write(" <input type=text size=20 name=name value="+z+">");
+
+   </script>
+   
+		  <p>Your Marital Status:
+		  <select id=marital name=marital onchange="askForSpouse();">
+             <option value=1> Married</option>
+			 <option value=2> Single</option>
+          </select> 
+		  <div id=sp> </div>
+
+<script>
+    function askForSpouse(){
+	   var z="<input type=text size=20 name=spname>";
+       var t=document.getElementById("marital").value;
+	   if(t==2)
+	     document.getElementById("sp").innerHTML="Hi Single";
+	   else
+        document.getElementById("sp").innerHTML="<p>Your Spouse:"+z;
+//    alert("anscgshafg");
+	}
+</script>
+</html>

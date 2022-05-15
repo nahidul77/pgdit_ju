@@ -9,4 +9,5 @@
 
 # Digital Signature
 
-    - 
+    - DS Send with sender message To identify the sender Authentication.
+    - DS is code which created with hash function.

@@ -1,0 +1,20 @@
+# Security
+
+# Layer of Security
+
+# Network Security
+
+# Network Security Model
+
+# Phases of Network Security
+    - Detection
+    - Reaction
+    - Protection
+
+# Security Basic
+
+# Characteristics of information Security
+
+# CIA & DAD
+
+

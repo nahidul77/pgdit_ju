@@ -1,0 +1,12 @@
+# Network Criteria (Security Service which are get by Security mechanism)
+
+    - Deliverable ( Not include to the network security)
+    - Accuracy
+    - Secrecy (Cryptography, steganography Thats are security mechanism or method)
+    - Integrity (Digital Signature)
+    - Authenticity (Sender Authentication, can be used DS)
+    - Non-repudation (DS)
+
+# Digital Signature
+
+    - 
